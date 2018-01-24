@@ -1,0 +1,28 @@
+/*------------------------------------*\
+		$FONT-SIZES
+\*------------------------------------*/
+
+$size-vars: ( 
+	"pico": rem(12px), 
+	"nano": rem(13.5px), 
+	"micro": rem(14px), 
+	"base": rem(16px), 
+	"kilo": rem(18px), 
+	"mega": rem(19px),
+	"giga": rem(22px),
+	"tera": rem(30px));
+
+
+/*------------------------------------*\
+		$BREAK-POINTS
+\*------------------------------------*/
+$breakpoints: (
+	'extra-small': (max-width: 500px),
+	'small': (max-width: 768px),
+	'medium': (max-width: 1024px),
+	'large': (max-width: 1366px),
+  );
+
+// Header
+
+$header-height: 200px;
